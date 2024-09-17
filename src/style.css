@@ -10,6 +10,7 @@ body {
 a {
   color: purple;
 }
+
 .weather-app1 {
   background: white;
   max-width: 600px;
@@ -47,13 +48,37 @@ header {
 }
 
 .search-form-button {
-  background: purple;
+  background: rgb(128, 0, 92);
   padding: 15px 20px;
   margin-left: 5px;
   border-radius: 5px;
   font-size: 16px;
   color: white;
   border: none;
+}
+main {
+  padding: 20px 0;
+}
+
+.weather-app-data {
+  display: flex;
+  justify-content: space-between;
+}
+
+.weather-app-city {
+  margin: 0;
+  font-size: 58px;
+  line-height: 48px;
+}
+
+.weather-app-details {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 50;
+}
+
+.weather-app-details strong {
+  color: rgb(248, 10, 149);
 }
 
 footer {
