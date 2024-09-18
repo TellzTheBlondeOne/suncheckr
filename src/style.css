@@ -81,6 +81,27 @@ main {
   color: rgb(248, 10, 149);
 }
 
+.weather-app-temperature-container {
+  display: flex;
+}
+
+.weather-app-temerature {
+  font-size: 88px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.weather-app-icon {
+  font-size: 44px;
+  margin-top: 20px;
+}
+
+.weather-app-unit {
+  font-size: 30px;
+  font-weight: 20px;
+  margin-top: 15px;
+}
+
 footer {
   border-top: 2px solid #f9f7fe;
   padding: 30px 0 0 0;
