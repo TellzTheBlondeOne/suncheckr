@@ -125,10 +125,11 @@ main {
   color: rgb(248, 10, 149);
   display: flex;
   justify-content: center;
+  margin-top: 10px;
 }
 
 .weather-forecast-temperature {
-  padding: 0 10px;
+  padding: 0 8px;
 }
 
 footer {
